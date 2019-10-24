@@ -1,0 +1,38 @@
+
+body {
+	padding: 40px;
+}
+
+.matrix-label {
+	font-size: 12px;
+}
+
+path {
+	shape-rendering: crispedges;
+}
+.form-group{
+	display: flex;
+	align-items: center;
+}
+#select-order-type {
+	width: 200px;
+	margin-left: 10px;
+	margin-bottom: 0px!important;
+}
+
+.legend {
+	display: inline-block;
+	margin-left: 10px;
+}
+.legend-element {
+	margin-left: 20px;
+}
+.legend-element i {
+	padding-right: 5px;
+}
+.color-marriage {
+	color: #8686bf;
+}
+.color-business {
+	color: #fbad52;
+}

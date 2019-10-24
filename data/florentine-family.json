@@ -1,0 +1,436 @@
+{
+  "nodes": [
+    {
+      "Family": "Acciaiuoli",
+      "Wealth": "10",
+      "NumberPriorates": "53"
+    },
+    {
+      "Family": "Albizzi",
+      "Wealth": "36",
+      "NumberPriorates": "65"
+    },
+    {
+      "Family": "Barbadori",
+      "Wealth": "55",
+      "NumberPriorates": "0"
+    },
+    {
+      "Family": "Bischeri",
+      "Wealth": "44",
+      "NumberPriorates": "12"
+    },
+    {
+      "Family": "Castellani",
+      "Wealth": "20",
+      "NumberPriorates": "22"
+    },
+    {
+      "Family": "Ginori",
+      "Wealth": "32",
+      "NumberPriorates": "0"
+    },
+    {
+      "Family": "Guadagni",
+      "Wealth": "8",
+      "NumberPriorates": "21"
+    },
+    {
+      "Family": "Lamberteschi",
+      "Wealth": "42",
+      "NumberPriorates": "0"
+    },
+    {
+      "Family": "Medici",
+      "Wealth": "103",
+      "NumberPriorates": "53"
+    },
+    {
+      "Family": "Pazzi",
+      "Wealth": "48",
+      "NumberPriorates": "0"
+    },
+    {
+      "Family": "Peruzzi",
+      "Wealth": "49",
+      "NumberPriorates": "42"
+    },
+    {
+      "Family": "Pucci",
+      "Wealth": "3",
+      "NumberPriorates": "0"
+    },
+    {
+      "Family": "Ridolfi",
+      "Wealth": "27",
+      "NumberPriorates": "38"
+    },
+    {
+      "Family": "Salviati",
+      "Wealth": "10",
+      "NumberPriorates": "35"
+    },
+    {
+      "Family": "Strozzi",
+      "Wealth": "146",
+      "NumberPriorates": "74"
+    },
+    {
+      "Family": "Tornabuoni",
+      "Wealth": "48",
+      "NumberPriorates": "0"
+    }
+  ],
+  "links": [
+    {
+      "type": "marriage",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "type": "marriage",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "type": "marriage",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "type": "marriage",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "type": "marriage",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "type": "marriage",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "type": "marriage",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "type": "marriage",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "type": "marriage",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "type": "marriage",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "type": "marriage",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "type": "marriage",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "type": "marriage",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "type": "marriage",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "type": "marriage",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "type": "marriage",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "type": "marriage",
+      "source": 6,
+      "target": 15
+    },
+    {
+      "type": "marriage",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "type": "marriage",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "type": "marriage",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "type": "marriage",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "type": "marriage",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "type": "marriage",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "type": "marriage",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "type": "marriage",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "type": "marriage",
+      "source": 10,
+      "target": 3
+    },
+    {
+      "type": "marriage",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "type": "marriage",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "type": "marriage",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "type": "marriage",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "type": "marriage",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "type": "marriage",
+      "source": 13,
+      "target": 8
+    },
+    {
+      "type": "marriage",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "type": "marriage",
+      "source": 14,
+      "target": 3
+    },
+    {
+      "type": "marriage",
+      "source": 14,
+      "target": 4
+    },
+    {
+      "type": "marriage",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "type": "marriage",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "type": "marriage",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "type": "marriage",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "type": "marriage",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "type": "business",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "type": "business",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "type": "business",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "type": "business",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "type": "business",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "type": "business",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "type": "business",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "type": "business",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "type": "business",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "type": "business",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "type": "business",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "type": "business",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "type": "business",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "type": "business",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "type": "business",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "type": "business",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "type": "business",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "type": "business",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "type": "business",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "type": "business",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "type": "business",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "type": "business",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "type": "business",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "type": "business",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "type": "business",
+      "source": 10,
+      "target": 2
+    },
+    {
+      "type": "business",
+      "source": 10,
+      "target": 3
+    },
+    {
+      "type": "business",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "type": "business",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "type": "business",
+      "source": 13,
+      "target": 8
+    },
+    {
+      "type": "business",
+      "source": 15,
+      "target": 8
+    }
+  ]
+}
