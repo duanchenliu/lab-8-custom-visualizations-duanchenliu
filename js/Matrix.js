@@ -53,14 +53,19 @@ export default function Matrix(){
                             .data(d=> d.cols) //d = data for each row
                             .enter().append("path") // columns are intialized once and never change.
                             .attr('d', (d, i)=>'M ' + pos(i) +' '+ 0 + ' l ' + pos.bandwidth() + ' 0 l 0 ' + pos.bandwidth() + ' z')
-                            .attr("fill", d=>d.marriage == 0 ? "#ddd" : "#8686bf");
+                            .attr("fill", d=>d.marriage == 0 ? "#ddd" : "#8686bf")
+                            .attr("class", "matrix-cell matrix-cell-marriage")// used for the mouseover and mouseout event below
+                            .on("mouseover", handleMouseoverCell)
+                            .on("mouseout", handleMouseoutCell);
                     
             rowsGroups.selectAll(".matrix-cell-business") //columns
                             .data(d=> d.cols)
                             .enter().append("path")
                             .attr('d', (d,i)=>'M ' + pos(i) +' '+ 0 + ' l 0 ' + pos.bandwidth() + ' l ' + pos.bandwidth() + ' 0 z')// M: move to a position; (pos(i), 0) position; l: draw a line; z: close a path
-                            .attr("fill", d=>d.business == 0 ? "#ddd" : "#fbad52");//#ddd gray => no business; 
-
+                            .attr("fill", d=>d.business == 0 ? "#ddd" : "#fbad52")//#ddd gray => no business; 
+                            .attr("class", "matrix-cell matrix-cell-business")// used for the mouseover and mouseout event below
+                            .on("mouseover", handleMouseoverCell)
+                            .on("mouseout", handleMouseoutCell);
 
             // Draw Row and Column Labels:
             rowsGroups.append("text")
@@ -86,4 +91,28 @@ export default function Matrix(){
     return chart;
 }
 
+// mouseover
+function handleMouseoverCell(d,i){
+    // this:  contains a current node in focus. (it is the SVG path representing the triangle cell.)
+    // this.parentNode: retrieve its ancestors (parent row group)
+    // datum: row data
+    let row = d3.select(this.parentNode).datum().index; // parent: row
+    let col = i;
+    let g = d3.select(this.parentNode.parentNode);// get group
+
+    g.selectAll(".matrix-cell")
+        .filter(d=>d.r!==row && d.c!==col)
+        .transition()
+        .duration(200)
+        .attr("fill-opacity", 0.2);
+
+};
+
+function handleMouseoutCell(){
+    let g = d3.select(this.parentNode.parentNode);// get group
+    g.selectAll(".matrix-cell")
+        .transition()
+        .duration(200)
+        .attr("fill-opacity", 1);
+   };
 

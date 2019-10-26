@@ -51,7 +51,9 @@ function transform(data){
 }
 
 document.querySelector("#select-order-type").addEventListener("change", function(){
-	let type = this.value;
+    let type = this.value;
+    // for family name: we arrange the rows in ascending order: a -> z
+    // for other: we arrange the row according to values
 	viewData.sort((a, b)=>type == "index"? (a[type] - b[type]) : b[type] - a[type]);
 	d3.select('#chart-area')
 		.call(matrix);
